@@ -1,0 +1,89 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    background-color: white;
+}
+
+h1,h2,h3,h4,h5{
+    color: rgb(0, 162, 255)
+}
+
+
+.img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+    border:  2px white solid;
+    border-radius: 50%;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(238, 234, 234);
+}
+.name{
+    float: left;
+padding: 15px;
+}
+.contract{
+    float: right;
+    padding: 10px;
+
+}
+.contract a{
+    text-decoration: none;
+}
+
+.contract a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: 2px black solid;
+    border-bottom: none;
+}
+.right{ padding: 10px;
+    float: right;
+    width: 60%;
+    
+}
+.left{ padding: 10px;
+    float: left;
+   
+}
+.hrcomon{
+    border: 1px black solid;
+    border-bottom: none;
+}
+.rightleft{
+    float: left;
+    width: 45%;
+}
+.rightright{
+    float: right;
+    width: 45%;
+}
+
+.footer{
+    background-color: #1a1d1d;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+.footer a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px;
+    color: aqua;
+}
+.footer a:hover{
+    background-color: hwb(263 9% 9%);
+}
